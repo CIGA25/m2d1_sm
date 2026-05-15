@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #1B1F21;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lateral {
+    min-height: 100vh;
+    width: 20%;
+    background-color: #152030;
+    color: #F0F4F8;
+}
+
+.usuario {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.usuario h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.usuario p {
+    font-size: 12px;
+    color: #aaacaf;
+}
+
+img {
+    border-radius: 200px;
+    width: 40px;
+}
+
+.icons {
+    color: #aaacaf;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.contenedor {
+    margin: 20px 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botón {
+    background-color: #00FFFF;
+    color: #0A111A;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 50px;
+    padding: 12px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 16px #8ff5f5;
+}
+
+.botón:hover {
+    background-color: #8ff5f5;
+}
+
+.botón:focus {
+    background-color: #68b3b3;
+}
+
+.chat {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.chat h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.chat p {
+    font-size: 12px;
+    color: #aaacaf;
+}
+
+.chat:hover {
+    background-color: #8ff5f5;
+    color: #152030;
+}
+
+.msj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido {
+    min-height: 100vh;
+    background-color: #0a111a;
+    color: #F0F4F8;
+    display: flex;
+    flex-basis: 80%;
+    justify-content: center;
+}
+
+.contenido img {
+    border-radius: 400px;
+    width: 66%;
+    margin-bottom: 24px;
+    box-shadow: 0 0 32px #8ff5f5;
+}
+
+.descripción {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
